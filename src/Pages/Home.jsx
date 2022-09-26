@@ -1,6 +1,15 @@
+import CardsList from "../Components/CardsList"
+import AddNewCardForm from "../Components/AddNewCardForm";
+
 const HomeFunk = () => {
     return ( 
-        <h1>home</h1>
+        <>
+            <CardsList />
+            <AddNewCardForm />
+        </>
+        
+        
+        
      );
 }
  

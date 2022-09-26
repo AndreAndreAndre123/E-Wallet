@@ -1,9 +1,10 @@
 import Home from "./Pages/Home";
 import Create from "./Pages/Create";
 import Navigation from "./Components/navigation";
-
-
 import { Routes, Route, Switch } from "react-router-dom";
+
+
+
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
               <Route path="/create" element = {<Create />}></Route>
               
             </Routes>
+    
+            
+            
       
 
       </div>

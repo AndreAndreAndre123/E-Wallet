@@ -1,5 +1,5 @@
-import ImportUser from "../Functions/ImportUser"
-console.log(ImportUser);
+
+
 const CreateCard = () => {
     return ( 
         <>
