@@ -1,8 +1,8 @@
 import Home from "./Pages/Home";
-import Create from "./Pages/Create";
+import AddNewCardList from "./Components/AddNewCardForm"
 import Navigation from "./Components/navigation";
 import { Routes, Route, Switch } from "react-router-dom";
-
+import "./App.css"
 
 
 
@@ -16,7 +16,7 @@ function App() {
             <Routes>
 
               <Route path="/" element = {<Home />}></Route>
-              <Route path="/create" element = {<Create />}></Route>
+              <Route path="/create" element = {<AddNewCardList />}></Route>
               
             </Routes>
     
