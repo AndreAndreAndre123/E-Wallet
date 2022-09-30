@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3em;
+  margin: 20px;
+}
+
+.wholeCardContainer {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wholeCardContainer .cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  height: 180px;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ebba5d;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.wholeCardContainer .cardContainer .btnDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.wholeCardContainer .cardContainer .btnDiv .btn {
+  width: 50px;
+  font-size: 0.7em;
+  background-color: #ebba5d;
+  border: none;
+}
+
+.wholeCardContainer .cardContainer .btnDiv .btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.wholeCardContainer .cardContainer .vendorCardStyle {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.wholeCardContainer .cardContainer .cardIsActive {
+  font-size: 0.7em;
+}
+
+.wholeCardContainer .cardContainer .cardNumberCardStyle {
+  font-size: 1.5em;
+}
+
+.wholeCardContainer .cardContainer .nameValid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 -5px;
+}
+
+.wholeCardContainer .cardContainer .nameValid small {
+  font-size: 0.7em;
+}
+
+.wholeCardContainer .cardContainer .validAndName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .formBtn {
+  background-color: white;
+  border: none;
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+form .formBtn:hover {
+  border: 1px solid black;
+}
+
+form .input {
+  width: 50%;
+  margin-bottom: 20px;
+  height: 30px;
+  text-align: center;
+  font-size: 1.3em;
+  border: 1px solid black;
+}
+
+input:invalid {
+  border: 3px solid red;
+}
+/*# sourceMappingURL=style.css.map */

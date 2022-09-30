@@ -2,7 +2,7 @@ import Home from "./Pages/Home";
 import AddNewCardList from "./Components/AddNewCardForm"
 import Navigation from "./Components/navigation";
 import { Routes, Route, Switch } from "react-router-dom";
-import "./App.css"
+import "./style.css"
 
 
 

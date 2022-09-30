@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 20px;
+  }
+  
+  .wholeCardContainer{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 180px;
+        margin-top: 10px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(235, 186, 93);
+        border-radius: 6px;
+        padding: 10px;
+
+            .btnDiv{
+                display: flex;
+                gap: 20px;
+
+                .btn{
+                    width: 50px;
+                    font-size: 0.7em;
+                    background-color: rgb(235, 186, 93);
+                    border: none;
+                }
+                .btn:hover{
+                    background-color: rgba(0, 0, 0, 0.1); 
+                    border-radius: 20px;
+                }
+    
+            }
+   
+        .vendorCardStyle{
+            align-self: flex-end;
+        }
+
+        .cardIsActive{
+            font-size: 0.7em;
+        }
+
+        .cardNumberCardStyle{
+            font-size: 1.5em;
+        }
+
+        .nameValid{
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 -5px;
+
+            small{
+                font-size: 0.7em;
+            }
+        }
+
+        .validAndName{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+      }
+    
+  }
+
+
+
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .formBtn{
+        background-color: white;
+        border: none;
+        font-size: 1.5em;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .formBtn:hover{
+        border: 1px solid black;
+    }
+
+    .input{
+        
+        width: 50%;
+        margin-bottom: 20px;
+        height: 30px;
+        text-align: center;
+        font-size: 1.3em;
+        border: 1px solid black;
+        
+    }
+  }
+  
+ 
+
+  
+  input:invalid {
+    border: 3px solid red;
+}
